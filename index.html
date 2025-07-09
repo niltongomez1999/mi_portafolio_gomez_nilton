@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Portafolio Profesional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><img src="img/download.png" alt=""></h1>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+      <ul id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobremi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <img src="img/mifoto.jpeg" alt="Mi foto" class="fotoperfil" />
+    <h2>Hola, soy Nilton</h2>
+    <p>Desarrollador Web | Frontend | Backend</p>
+  <h2>Sobre mí</h2>
+    <p>Soy un desarrollador apasionado por crear soluciones web modernas y eficientes. Tengo experiencia en HTML, CSS, JavaScript y frameworks modernos.</p>
+  </section>
+
+ <section id="proyectos">
+  <h2>Mis Proyectos</h2>
+  <div class="proyectos-grid">
+    
+    <div class="proyecto">
+      <img src="img/proyect1.png" alt="Proyecto 1" />
+      <h3>Proyecto 1</h3>
+      <p>Descripción breve del proyecto 1.</p>
+      <a href="#">Ver más</a>
+    </div>
+
+    <div class="proyecto">
+      <img src="img/proyect2.jpg" alt="Proyecto 2" />
+      <h3>Proyecto 2</h3>
+      <p>Descripción breve del proyecto 2.</p>
+      <a href="#">Ver más</a>
+    </div>
+  </div>
+</section>
+<!-- Puedes seguir agregando más proyectos aquí -->
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <ul class="skills">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>Node.js</li>
+  </ul>
+</section>
+
+ <!-- Puedes seguir agregando más proyectos aquí -->
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="contacto-contenido">
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+
+    <div class="info-contacto">
+      <h3>Información</h3>
+      <p><strong>Dirección:</strong> Jr. Sacsayhuamán N° 200, Carmen Alto, Huamanga, Ayacucho</p>
+      <p><strong>Teléfono:</strong> <a href="tel:+51987654321">+51 987 654 321</a></p>
+
+      <!-- Mapa embebido -->
+      https://www.google.com/maps?q=-13.18222,-74.22472&z=16&output=embed
+    </div>
+  </div>
+</section>
+
+
+  
+
+  <footer>
+    <p>&copy; 2025 Mi Portafolio Todocodenil</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
